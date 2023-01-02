@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="name">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Harku"/>
+        <xs:enumeration value="Jõhvi"/>
+        <xs:enumeration value="Tartu"/>
+        <xs:enumeration value="Pärnu"/>
+        <xs:enumeration value="Kuressaare"/>
+        <xs:enumeration value="Türi"/>
+        <xs:enumeration value="Kuusiku"/>
+        <xs:enumeration value="Väike-Maarja"/>
+        <xs:enumeration value="Võrtsjärv"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="phenomenon">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Variable clouds"/>
+        <xs:enumeration value="Light shower"/>
+        <xs:enumeration value="Clear"/>
+        <xs:enumeration value="Few clouds"/>
+        <xs:enumeration value="Moderate shower"/>
+        <xs:enumeration value="Light rain"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="tempmin">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="4"/>
+        <xs:enumeration value="5"/>
+        <xs:enumeration value="8"/>
+        <xs:enumeration value="9"/>
+        <xs:enumeration value="2"/>
+        <xs:enumeration value="0"/>
+        <xs:enumeration value="12"/>
+        <xs:enumeration value="11"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="direction">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="West wind"/>
+        <xs:enumeration value="Southwest wind"/>
+        <xs:enumeration value="Northwest wind"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="speedmin">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="1"/>
+        <xs:enumeration value="2"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="speedmax">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="4"/>
+        <xs:enumeration value="6"/>
+        <xs:enumeration value="5"/>
+        <xs:enumeration value="7"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="gust" type="xs:string"/>
+  <xs:element name="tempmax">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="12"/>
+        <xs:enumeration value="14"/>
+        <xs:enumeration value="15"/>
+        <xs:enumeration value="16"/>
+        <xs:enumeration value="17"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="text">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Widely clear and dry in inland. More clouds with scattered showers on the coastal areas. Westerly wind 1-6 m/s, on coastal areas north, northwest wind 5-11 m/s. Air temperature in inland 0..+5, on the ground to -3, on the coast up to 12°C."/>
+        <xs:enumeration value="A few and variable cloud with showers in places. West, northwest wind 2-8, on coast in gusts up to 11 m/s. Air temperature 12..16°C."/>
+        <xs:enumeration value="Slightly cloudy, after midnight from north it is getting more cloudy with scattered showers locally. Northwest, north wind 2-7, on northern coast in gusts 12 m/s. Air temperature 2..7, on the ground around 0°C, on the coast up to 12°C."/>
+        <xs:enumeration value="Variable cloud. Locally showers with higher probability in Norteastern Estonia. In the evening clouds and showers turning away. Northwest, north wind 3-9, on coast in gusts 12 m/s. Air temperature 11..16°C."/>
+        <xs:enumeration value="Slightly or partly cloudv, on coast locally showers possible. Northerly 1-7 m/s. Air temperature 2..7, near the ground around 0°C,on coast to 12°C. "/>
+        <xs:enumeration value="Cloud with bright spells. Locally some light rain. Northerly 2-7 m/s. Air temperature 11..16°C. "/>
+        <xs:enumeration value="Slightly or partly cloudy. Locally fog. Weak variable wind. Air temperature 2..7, near the ground around 0°C,on coast to 12°C. "/>
+        <xs:enumeration value="Variable cloudy. On islands showers. Weak variable wind, turning in afternoon westerly direction. Air temperature 12..17°C. "/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="place">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="phenomenon"/>
+        <xs:element ref="tempmin" minOccurs="0"/>
+        <xs:element ref="tempmax" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="wind">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="direction"/>
+        <xs:element ref="speedmin"/>
+        <xs:element ref="speedmax"/>
+        <xs:element ref="gust"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="sea">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Sep 3, 2022 02:30 UTC
+
+Forecast for Baltic Sea valid 24 hours from 07:00 UTC Sep 3 to 07:00 UTC Sep 4, 2022. 
+ 
+No warnings.
+
+Weather summary: southwestern part of extensive Low.
+
+Northern Baltic, Gulf of Finland, Moonsund, Northern Gulf of Riga: 
+north, northwest 4-9, in gusts up to 12 m/s. Showers in many places. Visibility from moderate to good.
+"/>
+        <xs:enumeration value=""/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="peipsi">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="West, northwest wind 3-8 m/s. Wave height 0.3-0.7 m. Possible showers. Visibility mainly good. Air temperature 8..10°C."/>
+        <xs:enumeration value="West, northwest wind 3-8 m/s. Wave height 0.3-0.7 m. Possible showers. Visibility mainly good. Air temperature 12..14°C."/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="night">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="phenomenon"/>
+        <xs:element ref="tempmin"/>
+        <xs:element ref="tempmax"/>
+        <xs:element ref="text"/>
+        <xs:element ref="place" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="wind" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="sea" minOccurs="0"/>
+        <xs:element ref="peipsi" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="day">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="phenomenon"/>
+        <xs:element ref="tempmin"/>
+        <xs:element ref="tempmax"/>
+        <xs:element ref="text"/>
+        <xs:element ref="place" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="wind" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element ref="sea" minOccurs="0"/>
+        <xs:element ref="peipsi" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forecast">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="night"/>
+        <xs:element ref="day"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="date" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="forecasts">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="forecast" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

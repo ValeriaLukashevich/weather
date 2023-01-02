@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<forecasts>
+	<forecast date="2023-01-02">
+		<night>
+			<phenomenon>Few clouds</phenomenon>
+			<tempmin>-6</tempmin>
+			<tempmax>2</tempmax>
+			<text>It is clearing up. Before midnight in southern part rain and sleet locally. Westerly wind 3-9, on northeastern coast in gusts to 13 m/s. Air temperature falling -1..-6°C, on the windward coast to +2°C. Slippery roads!</text>
+			<place>
+				<name>Harku</name>
+				<phenomenon>Clear</phenomenon>
+				<tempmin>-4</tempmin>
+			</place>
+			<place>
+				<name>Jõhvi</name>
+				<phenomenon>Risk of glaze</phenomenon>
+				<tempmin>-5</tempmin>
+			</place>
+			<place>
+				<name>Tartu</name>
+				<phenomenon>Risk of glaze</phenomenon>
+				<tempmin>-4</tempmin>
+			</place>
+			<place>
+				<name>Pärnu</name>
+				<phenomenon>Clear</phenomenon>
+				<tempmin>-4</tempmin>
+			</place>
+			<place>
+				<name>Kuressaare</name>
+				<phenomenon>Variable clouds</phenomenon>
+				<tempmin>-1</tempmin>
+			</place>
+			<place>
+				<name>Türi</name>
+				<phenomenon>Clear</phenomenon>
+				<tempmin>-6</tempmin>
+			</place>
+			<wind>
+				<name>Kuusiku</name>
+				<direction>Westerly winds</direction>
+				<speedmin>3</speedmin>
+				<speedmax>5</speedmax>
+				<gust></gust>
+			</wind>
+			<wind>
+				<name>Väike-Maarja</name>
+				<direction>Westerly winds</direction>
+				<speedmin>3</speedmin>
+				<speedmax>6</speedmax>
+				<gust></gust>
+			</wind>
+			<wind>
+				<name>Võrtsjärv</name>
+				<direction>Westerly winds</direction>
+				<speedmin>3</speedmin>
+				<speedmax>7</speedmax>
+				<gust></gust>
+			</wind>
+			<sea>Forecast for Baltic Sea valid 24 hours from 13:00 UTC Jan 1 to 13:00 UTC Jan 2, 2023.
+
+Weather summary: ridge of High moving from Scandinavia over Baltic Sea eastwards.
+
+No warnings
+
+
+Northern Baltic: northerly, at night becoming around south 3-8 m/s, tomorrow by day southeast, south 5-10, in gusts 13 m/s. Rain locally, tomorrow by day rainy. Visibility moderate or good.
+
+Northern Gulf of Riga, Moonsund: westerly becoming at night southeast 3-8 m/s, tomorrow by day southeast 3-8 m/s. Rain in many places, at night reducing. Visibility moderate.
+
+Gulf of Finland: west, northwest 5-10, at night in eastern part in gusts up to 14 m/s, by morning decreasing and during day backing southeast 3-8 m/s. Mostly dry. Visibility moderate or good.
+</sea>
+			<peipsi>Westerly wind 3-8 m/s. Mostly dry. Visibility good to moderate. Air temperature -4..-6°C.</peipsi>
+		</night>
+		<day>
+			<phenomenon>Moderate sleet</phenomenon>
+			<tempmin>-3</tempmin>
+			<tempmax>4</tempmax>
+			<text>It is clouding up. In afternoon an area of rain and sleet spreading over Southern and Western Estonia, locally snow and freesinnnnnnnnnnng rain too. Risk of glaze. Westerly wind backing southeast 3-8 m/s. Air temperature rising in Western Estonia 0..+4, in eastern part 0..-3°C.</text>
+			<place>
+				<name>Harku</name>
+				<phenomenon>Light sleet</phenomenon>
+				<tempmax>-1</tempmax>
+			</place>
+			<place>
+				<name>Jõhvi</name>
+				<phenomenon>Variable clouds</phenomenon>
+				<tempmax>-3</tempmax>
+			</place>
+			<place>
+				<name>Tartu</name>
+				<phenomenon>Cloudy with clear spells</phenomenon>
+				<tempmax>-1</tempmax>
+			</place>
+			<place>
+				<name>Pärnu</name>
+				<phenomenon>Moderate sleet</phenomenon>
+				<tempmax>1</tempmax>
+			</place>
+			<place>
+				<name>Kuressaare</name>
+				<phenomenon>Moderate rain</phenomenon>
+				<tempmax>4</tempmax>
+			</place>
+			<place>
+				<name>Türi</name>
+				<phenomenon>Risk of glaze</phenomenon>
+				<tempmax>0</tempmax>
+			</place>
+			<wind>
+				<name>Kuusiku</name>
+				<direction>Southeast wind</direction>
+				<speedmin>0</speedmin>
+				<speedmax>4</speedmax>
+				<gust></gust>
+			</wind>
+			<wind>
+				<name>Väike-Maarja</name>
+				<direction>Southwest wind</direction>
+				<speedmin>0</speedmin>
+				<speedmax>4</speedmax>
+				<gust></gust>
+			</wind>
+			<wind>
+				<name>Võrtsjärv</name>
+				<direction>South wind</direction>
+				<speedmin>1</speedmin>
+				<speedmax>5</speedmax>
+				<gust></gust>
+			</wind>
+			<sea></sea>
+			<peipsi>Westerly wind 3-8 m/s, in afternoon backing southeast. Mostly dry. Visibility good to moderate. Air temperature -2..-4°C.</peipsi>
+		</day>
+	</forecast>
+	<forecast date="2023-01-03">
+		<night>
+			<phenomenon>Moderate sleet</phenomenon>
+			<tempmin>-3</tempmin>
+			<tempmax>3</tempmax>
+			<text>Overcast. Sleet, rain, in northeastern part also snow, towards morning it is going to snow in Central and Northern part of Estonia also. Risk of glaze. Southeast, east 4-10 m/s, backing by morning northerly direction. Air temperature -3..+3°C.</text>
+		</night>
+		<day>
+			<phenomenon>Moderate snowfall</phenomenon>
+			<tempmin>-2</tempmin>
+			<tempmax>2</tempmax>
+			<text>mainly cloudy. In many places  sleet and snow, locally also rain. Mainly northerly 2-8, on islands increasing in gusts to 14 m/s. Air temperature -2..+2°C. Slippery roads!</text>
+		</day>
+	</forecast>
+	<forecast date="2023-01-04">
+		<night>
+			<phenomenon>Light snowfall</phenomenon>
+			<tempmin>-7</tempmin>
+			<tempmax>0</tempmax>
+			<text>Cloudy with clear spells. Snow in many places. Variable win

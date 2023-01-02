@@ -8,4 +8,5 @@
   <component name="ProjectType">
     <option name="id" value="jpab" />
   </component>
+  <component name="WebServicesPlugin" addRequiredLibraries="false" />
 </project>
