@@ -57,18 +57,18 @@
 				<speedmax>7</speedmax>
 				<gust></gust>
 			</wind>
-			<sea>Forecast for Baltic Sea valid 24 hours from 13:00 UTC Jan 1 to 13:00 UTC Jan 2, 2023.
+			<sea>Forecast for Baltic Sea valid 24 hours from 07:00 UTC Jan 2 to 07:00 UTC Jan 3, 2023.
 
-Weather summary: ridge of High moving from Scandinavia over Baltic Sea eastwards.
+Weather summary: new Low deepening over Southern Scandinavia and moving over Baltic Sea northeastwards.
 
 No warnings
 
 
-Northern Baltic: northerly, at night becoming around south 3-8 m/s, tomorrow by day southeast, south 5-10, in gusts 13 m/s. Rain locally, tomorrow by day rainy. Visibility moderate or good.
+Northern Baltic: southeast, south 5-10, in gusts 13 m/s, in evening decreasing and becoming east, northeast 3-8 m/s, after midnight northwest increasing 8-13, in gusts 18 m/s. At night wave height 1.5-3 m. At times rain, at night sleet too. Visibility moderate, in sleet poor.
 
-Northern Gulf of Riga, Moonsund: westerly becoming at night southeast 3-8 m/s, tomorrow by day southeast 3-8 m/s. Rain in many places, at night reducing. Visibility moderate.
+Northern Gulf of Riga, Moonsund: southeast 4-9, in evening in gusts 13 m/s, at night becoming west, northwest and in early morning increasing 9-14, in gusts up to 20 m/s. In afternoon and at night rain and sleet. Visibility moderate, in sleet poor.
 
-Gulf of Finland: west, northwest 5-10, at night in eastern part in gusts up to 14 m/s, by morning decreasing and during day backing southeast 3-8 m/s. Mostly dry. Visibility moderate or good.
+Gulf of Finland: southerly 3-8, in afternoon southeast 5-10, in gusts 13 m/s, at night backing east, northeast and increasing 7-12, in gusts up to 17 m/s. At night wave height 1-2 m. In evening in western part rain and sleet starting, at night rain, sleet, snow. Visibility moderate, in precipitation poor.
 </sea>
 			<peipsi>Westerly wind 3-8 m/s. Mostly dry. Visibility good to moderate. Air temperature -4..-6°C.</peipsi>
 		</night>
@@ -76,7 +76,7 @@ Gulf of Finland: west, northwest 5-10, at night in eastern part in gusts up to 1
 			<phenomenon>Moderate sleet</phenomenon>
 			<tempmin>-3</tempmin>
 			<tempmax>4</tempmax>
-			<text>It is clouding up. In afternoon an area of rain and sleet spreading over Southern and Western Estonia, locally snow and freesinnnnnnnnnnng rain too. Risk of glaze. Westerly wind backing southeast 3-8 m/s. Air temperature rising in Western Estonia 0..+4, in eastern part 0..-3°C.</text>
+			<text>It is clouding up. In afternoon an area of rain and sleet spreading over Estonia northeastwards, locally snow and freesing rain too. Risk of glaze. Westerly wind backing southeast 3-8, in evening on coast in gusts to 13 m/s. Air temperature rising in Western Estonia 0..+4, in eastern part 0..-3°C.</text>
 			<place>
 				<name>Harku</name>
 				<phenomenon>Light sleet</phenomenon>
@@ -110,26 +110,26 @@ Gulf of Finland: west, northwest 5-10, at night in eastern part in gusts up to 1
 			<wind>
 				<name>Kuusiku</name>
 				<direction>Southeast wind</direction>
-				<speedmin>0</speedmin>
-				<speedmax>4</speedmax>
+				<speedmin>3</speedmin>
+				<speedmax>6</speedmax>
 				<gust></gust>
 			</wind>
 			<wind>
 				<name>Väike-Maarja</name>
-				<direction>Southwest wind</direction>
-				<speedmin>0</speedmin>
-				<speedmax>4</speedmax>
+				<direction>Southeast wind</direction>
+				<speedmin>3</speedmin>
+				<speedmax>5</speedmax>
 				<gust></gust>
 			</wind>
 			<wind>
 				<name>Võrtsjärv</name>
-				<direction>South wind</direction>
-				<speedmin>1</speedmin>
-				<speedmax>5</speedmax>
+				<direction>Southeast wind</direction>
+				<speedmin>3</speedmin>
+				<speedmax>6</speedmax>
 				<gust></gust>
 			</wind>
 			<sea></sea>
-			<peipsi>Westerly wind 3-8 m/s, in afternoon backing southeast. Mostly dry. Visibility good to moderate. Air temperature -2..-4°C.</peipsi>
+			<peipsi>Westerly wind in afternoon backing southeast 3-8, in late evening ingusts up to 12 m/s. Mostly dry. Visibility good to moderate. Air temperature -1..-3°C.</peipsi>
 		</day>
 	</forecast>
 	<forecast date="2023-01-03">
@@ -151,4 +151,24 @@ Gulf of Finland: west, northwest 5-10, at night in eastern part in gusts up to 1
 			<phenomenon>Light snowfall</phenomenon>
 			<tempmin>-7</tempmin>
 			<tempmax>0</tempmax>
-			<text>Cloudy with clear spells. Snow in many places. Variable win
+			<text>Cloudy with clear spells. Snow in many places. Variable wind 1-6 m/s, on islands northwest 5-10, in gusts to 15 m/s, by the morning decreasing. Air temperature 0..-4, in northeastern part to -7°C.</text>
+		</night>
+		<day>
+			<phenomenon>Light snowfall</phenomenon>
+			<tempmin>-7</tempmin>
+			<tempmax>0</tempmax>
+			<text>Cloudy with clear spells. Locally some snow. Variable wind 2-8 m/s, by evening turning easterly and somewhat increasing. Air temperature 0..-4, in northeastern part to -7°C.</text>
+		</day>
+	</forecast>
+	<forecast date="2023-01-05">
+		<night>
+			<phenomenon>Light snowfall</phenomenon>
+			<tempmin>-11</tempmin>
+			<tempmax>-2</tempmax>
+			<text>Cloudy. Light snow in many places, snowstorm. East, northeast increasing 7-10, in gusts to 14, on islands and coast to 15, in gusts up to 20 m/s. Air temperature -2..-8, in Northern Estonia to -11°C.</text>
+		</night>
+		<day>
+			<phenomenon>Light snowfall</phenomenon>
+			<tempmin>-11</tempmin>
+			<tempmax>-2</tempmax>
+		

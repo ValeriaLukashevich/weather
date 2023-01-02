@@ -31,7 +31,7 @@ public class WeatherController {
     private RestTemplate restTemplate;
 
     @GetMapping("/weather/import")
-    @Operation(summary = " ")
+    @Operation(summary = "info goes to downloaded_weather.xml")
     public String downloadWeatherInfo() throws IOException {
         HttpHeaders headers = createRapidApiHeaders();
         String xmlString = restTemplate.exchange(BASE_URL, HttpMethod.GET, new HttpEntity<>(headers), String.class).getBody();
@@ -41,12 +41,13 @@ public class WeatherController {
         return xmlString;
     }
 
-    @GetMapping("/weather/from-file")
-    public Forecast weatherFromFile() throws IOException {
+    @GetMapping(value = "/weather/from-file", produces = {MediaType.APPLICATION_JSON_VALUE})
+    @Operation(summary = "info from response.xml fail")
+    public Forecasts weatherFromFile() throws IOException {
         String xmlFromFile = new String(Files.readAllBytes(Paths.get(XML_EXAMPLE_FILE_PATH)));
         XmlMapper xmlMapper = new XmlMapper();
-        Forecast forecast = xmlMapper.readValue(xmlFromFile, Forecast.class);
-        return forecast;
+        Forecasts forecasts = xmlMapper.readValue(xmlFromFile, Forecasts.class);
+        return forecasts;
     }
 
 
